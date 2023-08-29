@@ -1,0 +1,240 @@
+html{
+	scroll-behavior:smooth
+
+}
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0%;
+    background-color: rgb(0, 0, 0);
+}
+#backToTop{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	color: #212121;
+	cursor: pointer;
+	outline: none;
+	border: solid 3px #fff;
+	border-radius: 50%;
+	transition: 0.2s ease-in-out;
+	transition-property: background-color, color;
+    padding: 0px;
+    
+}
+
+#backToTop:hover{
+	border-color: #ffc107;
+	background-color: #000;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+/*----Back To Top Button Icon------------------*/
+#backToTop img{
+	width: 75%;
+}
+#navigation{
+    background-color: black;
+    position: -webkit- sticky;
+    position: sticky;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    /* padding: 20px;
+    margin: 0; */
+    color: white;
+}
+nav li{
+    display:table-cell;
+    /* padding: 20px; */
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    vertical-align: middle;
+    border-left-width: 2px;
+    border-left-color: white;
+    border-left-style: solid;
+}
+nav li:hover{
+    background-color: silver;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.third-menu-button{
+    border-left-style: none !important;
+}
+#navigation img{
+    width: 15%;
+    align-content: center;
+    height: 15%;
+    display: block;
+     margin-left: auto;
+   margin-right: auto;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------------start quiz------------*/
+#p_1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    
+}
+.time{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    text-align: left;
+    font-size: larger;
+    color: #08e993;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding-left: 60px;
+
+}
+.start{
+    border: none;
+    outline: none;
+    background: rgb(198, 240, 174);
+    width: 290px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    left: 39%;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.container7{
+    display:contents;
+    height: 420px;
+    width: 870px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*background: #212121;
+    background-image: url(images/che.png) ;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size:cover;
+    background:linear-gradient(#ffc107,black) ;
+    opacity: 0.9;*/
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px 3px;
+}
+.container7:hover{
+    
+    background-image: url(/images/che.png) ;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size:cover;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(255, 225, 0);
+
+}
+.question{
+    padding: 15px;
+    font-size: 30px;
+    background: #c0c0c0;
+    margin: 10px 0 10px 0;
+    color: black;
+}
+.option{
+    position: relative;
+    left: 5%;
+    width: 20%;
+    height: 30px;
+    font-size: 19;
+    font-family:'Teko', sans-serif ;
+    display:block;
+    padding: 10px 0 10px 0;
+    background:#000000 ;
+    color: aliceblue;
+    margin: 10px 0 10px 0;
+}
+.option:hover{
+    color: #000000;
+    background: #e6e9e8;
+    cursor: pointer;
+}
+.submit{
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 100;
+    
+    
+}
+.submit:hover{
+    background: #4e9b00;
+}
+
+
+.button{
+    outline: none;
+    display: block;
+    border: solid 1px #830092;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 2% 30%;
+    z-index: 1000px;
+    text-align: center;
+    
+}.button:hover,
+.button:focus{
+    background: #830092;
+    color: black;
+}
+
+.button:active{
+    background: black;
+    color: #830092;
+}
+#editor{ 
+    text-align: center;
+    margin: 2% 30%;
+    justify-content: center;
+}

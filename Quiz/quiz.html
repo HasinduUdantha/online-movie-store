@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="Main.css">
+    <title>Avengers|Quiz</title>
+    <script src="backTop.js" async></script>
+</head>
+<body>
+
+  <button onclick="topFunction()" id="backToTop"  title="Go to top">
+		<img src="Images/backtotop.png" alt="backToTop">
+	</button>
+
+
+    <!---------------------navigation-------------------------------->
+    <div>
+      <div id="navigation">
+          <nav>
+              <img src="Images/Bottom-2.png">
+              <ul>
+                  <a href="../Main Page/Main.html">
+                      <li class="first-menu-button">Home</li>
+                  </a>
+                  <a href="../Store/Store.html">
+                      <li>Store</li>
+                  </a>
+                  <a href ="../Movies/movies_and_tv_shows.html">
+                      <li>Movies & Tv Shows</li>
+                  </a>
+                  <a href="../Characters/Characters.html">
+                      <li>Characters</li>
+                  </a>
+                  <a href="../Quiz/begin_quiz.html">
+                      <li>Quiz</li>
+                  </a>
+                  <a href="../Contact Us/contact.html">
+                      <li>Contact Us</li>
+                  </a>
+              </ul>
+
+          </nav>
+      </div>
+  </div>
+
+    <!---------------------End Navigation---------------------------->
+    <div class="">
+      <h3 class="time">Seconds Left: <span id="time-left">60</span></h3>
+    </div>
+    <section class="container">
+      <div class="heading">
+        <p id="p_1">QUIZ</p>
+      </div>
+      
+      <button id="start" class="start" onclick="setTimeout(getRadioValue,60000);btnColor();enable();">Click here to begin!</button>
+      <div class="container7" id="qContainer">
+        
+        <div class="question" id="question1">what is the name of thor's hammer ?</div>
+        <label for="True1" class="option"><input type="radio" name="op1" id="True1">Mjolnir</label>
+        <label for="False1.1" class="option"><input type="radio" name="op1" id="False1.1">Stormbreaker</label>
+        <label for="False1.2" class="option"><input type="radio" name="op1" id="False1.2">Thunder-X</label>
+        <label for="False1.3" class="option"><input type="radio" name="op1" id="False1.3">Jonithan</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question2">What kingdom does the Black Panther rule ?</div>
+        <label for="False2.1" class="option"><input type="radio" name="op2" id="False2.1">Sokovia </label>
+        <label for="True2" class="option"><input type="radio" name="op2" id="True2">Wakanda </label>
+        <label for="False2.2" class="option"><input type="radio" name="op2" id="False2.2">Asgard</label>
+        <label for="False2.3" class="option"><input type="radio" name="op2" id="False2.3">Burmeuda</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question3">Who made Captain America's shield ?</div>
+        <label for="True3" class="option"><input type="radio" name="op3" id="True3">Howard Stark </label>
+        <label for="False3.1" class="option"><input type="radio" name="op3" id="False3.1">Eitri </label>
+        <label for="False3.2" class="option"><input type="radio" name="op3" id="False3.2">Tony Stark</label>
+        <label for="False3.3" class="option"><input type="radio" name="op3" id="False3.3">Nick Fury</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question4">Who is the leader of S.H.E.I.L.D ?</div>
+        <label for="False4.1" class="option"><input type="radio" name="op4" id="False4.1">Captain America </label>
+        <label for="False4.2" class="option"><input type="radio" name="op4" id="False4.2">Tony Stark </label>
+        <label for="False4.3" class="option"><input type="radio" name="op4" id="False4.3">Peggy Carter</label>
+        <label for="True4" class="option"><input type="radio" name="op4" id="True4">Nick Fury</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question5">Who played Iron man in marvel studios movies ?</div>
+        <label for="True5" class="option"><input type="radio" name="op5" id="True5">Robert Downey Jr. </label>
+        <label for="False5.1" class="option"><input type="radio" name="op5" id="False5.1">Jimmy Fallon</label>
+        <label for="False5.2" class="option"><input type="radio" name="op5" id="False5.2">Tom Cruse</label>
+        <label for="False5.3" class="option"><input type="radio" name="op5" id="False5.3">Jonny Depp</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question6">How many Infinity Stones are there ?</div>
+        <label for="False6.1" class="option"><input type="radio" name="op6" id="False6.1">Ten</label>
+        <label for="False6.2" class="option"><input type="radio" name="op6" id="False6.2">Three </label>
+        <label for="True6" class="option"><input type="radio" name="op6" id="True6">six</label>
+        <label for="False6.3" class="option"><input type="radio" name="op6" id="False6.3">Eight</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question7">In which movie did Spider-Man make his first appearance in the MCU?</div>
+        <label for="False7.1" class="option"><input type="radio" name="op7" id="False7.1">Spider-Man : Homecoming </label>
+        <label for="False7.2" class="option"><input type="radio" name="op7" id="False7.2">Avengers : Age Of Ultron </label>
+        <label for="True7" class="option"><input type="radio" name="op7" id="True7">Captain America : Civil War</label>
+        <label for="False7.3" class="option"><input type="radio" name="op7" id="False7.3">Iron Man 3</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question8">Who is winter soidier ?</div>
+        <label for="False8.1" class="option"><input type="radio" name="op8" id="False8.1">Hawkeye </label>
+        <label for="True8" class="option"><input type="radio" name="op8" id="True8">Bucky</label>
+        <label for="False8.2" class="option"><input type="radio" name="op8" id="False8.2">Falcon</label>
+        <label for="False8.3" class="option"><input type="radio" name="op8" id="False8.3">Rody</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question9">When did the first Guardians of the Galaxy movie come out?</div>
+        <label for="False9.1" class="option"><input type="radio" name="op9" id="False9.1">2016</label>
+        <label for="False9.2" class="option"><input type="radio" name="op9" id="False9.2">2012 </label>
+        <label for="True9" class="option"><input type="radio" name="op9" id="True9">2014</label>
+        <label for="False9.3" class="option"><input type="radio" name="op9" id="False9.3">2013</label>
+      </div>
+    
+      <div class="container7">
+        
+        <div class="question" id="question10">who is the creator of marvel superheroes</div>
+        <label for="False10.1" class="option"><input type="radio" name="op10" id="False10.1">Bill Finger </label>
+        <label for="True10" class="option"><input type="radio" name="op10" id="True10">Stan Lee</label>
+        <label for="True10.2" class="option"><input type="radio" name="op10" id="True10.2">Darick Robertson</label>
+        <label for="False10.3" class="option"><input type="radio" name="op10" id="False10.3">Bruce Lee</label>
+      </div>
+    
+      <div class="resultContainer" id="result" style="display: none;"></div>
+    
+    
+      <input type="submit" class="submit" value="submitQuiz" onclick="getRadioValue();disable();">
+    
+    </section>
+  <!------------------footer-------------------------------->
+  <footer>
+    <section>
+        <div class=" container-social-media">
+            <div class="headquarters">
+                <img src="Images/The_avengers_logo.png" alt="Logo" id="logo">
+                <p>Frank G. Wells Building 2nd Floor 500 South Buena Vista Street,<br>
+                    Burbank, California , United States</p>
+            </div>
+            <div class="social-media-logo">
+                <a href="https://www.facebook.com/avengers/"><img src="Images/facebook.png" alt="Facebook"
+                        id="social-media"></a>
+                <a href="https://www.instagram.com/avengers/?hl=en"><img src="Images/instagram.png" alt="Instagram"
+                        id="social-media"></a>
+                <a href="https://www.youtube.com/c/marvel"><img src="Images/youtube.png" alt="Youtube"
+                        id="social-media"></a>
+                <a href="https://twitter.com/avengers?lang=en"><img src="Images/twitter.png" alt="Twitter"
+                        id="social-media"></a>
+            </div>
+            <div id="editor">
+                <a href="../editor/kavindu.html"
+                    class="button">Editor</a>
+            </div>
+        </div>
+        <div class="container-footer">
+            <div id="footer">
+                <p>&copyAll copyrights credits are reserved to the <a href="https://www.marvel.com/">Marvel
+                        Studio</a></p>
+
+            </div>
+        </div>
+        <div>
+            <div id="navigate-footer">
+                <nav>
+
+                    <ul>
+
+                        <a href="../Meet Us/meet_us.html">
+                            <li>Meet Us</li>
+                        </a>
+                        <a href="../About us/about_us.html">
+                            <li>About Us</li>
+                        </a>
+                       
+                        <a href="#">
+                            <li>Site Map</li>
+                        </a>
+
+                        <a href="#">
+                            <li>Gallery</li>
+                        </a>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="quiz.js"></script>
+</body>
+</html>
